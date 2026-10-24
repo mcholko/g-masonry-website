@@ -12,7 +12,7 @@ Single-page site for G Masonry (Chicago masonry & tuckpointing), phone (773) 341
 
 ## Before launch (search for `TODO` in the code)
 1. **Domain + email:** set `$to` and the `From:` address in `contact-handler.php` to the client's real inbox/domain.
-2. **Photos:** drop the client's job photos into `images/` and replace the `.ph` placeholder tiles (about, services, projects) and the hero background in `css/styles.css`.
+2. **Photos:** the site currently uses free stock photos from Unsplash (Unsplash License: free for commercial use, no attribution required). The project gallery should be swapped for the client's own job photos before launch so it doesn't present stock images as their work. Keep the same filenames in `images/` and they'll drop straight in.
 3. **Reviews:** paste the client's Google/Yelp review widget into the reviews band, and replace the testimonial placeholders with real reviews (with permission).
 4. **Business hours / address:** confirm the hours in the contact section and add a street address if the client wants one shown.
 5. **Logo:** `logo.svg` uses the Poppins font for its text. For print or sharing outside the website, export it to PNG/PDF from a browser or design tool, or convert the text to outlines.
