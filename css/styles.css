@@ -186,30 +186,6 @@ img { max-width: 100%; display: block; }
   gap: 14px;
 }
 
-/* Reviews band */
-.reviews-band {
-  background: var(--gray-50);
-  padding-bottom: 20px;
-}
-.reviews-card {
-  position: relative;
-  top: -60px;
-  margin-bottom: -60px;
-  background: var(--white);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 36px 30px;
-  text-align: center;
-}
-.reviews-title { font-size: 1.4rem; margin-bottom: 20px; }
-.reviews-placeholder {
-  border: 2px dashed var(--gray-300);
-  border-radius: var(--radius);
-  padding: 34px;
-  color: var(--gray-500);
-  font-size: 0.95rem;
-}
-
 /* Sections */
 .section { padding: 90px 0; }
 .section-gray { background: var(--gray-50); }
