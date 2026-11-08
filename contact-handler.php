@@ -28,9 +28,9 @@ if ($name === '' || $phone === '') {
 
 // TODO: set to the client's real inbox and domain before launch
 $to = 'info@YOUR-DOMAIN.com';
-$subject = 'New quote request from G Masonry website';
+$subject = 'New quote request from GH Masonry website';
 
-$body = "New quote request from the G Masonry website\n\n";
+$body = "New quote request from the GH Masonry website\n\n";
 $body .= "Name: {$name}\n";
 $body .= "Phone: {$phone}\n";
 $body .= "Email: {$email}\n";

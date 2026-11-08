@@ -98,6 +98,7 @@ img { max-width: 100%; display: block; }
   color: var(--ink-800);
 }
 .logo-text em { font-style: normal; color: var(--red-600); }
+.logo-img { height: 66px; width: auto; }
 .main-nav {
   display: flex;
   gap: 26px;
@@ -528,7 +529,8 @@ img { max-width: 100%; display: block; }
   gap: 18px;
   text-align: center;
 }
-.logo-footer .logo-text { color: var(--white); }
+.logo-footer { background: var(--white); padding: 10px 16px; border-radius: var(--radius); }
+.logo-footer .logo-img { height: 70px; }
 .footer-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; }
 .footer-nav a:hover, .site-footer p a:hover { color: var(--white); }
 .site-footer p { font-size: 0.9rem; }
@@ -589,4 +591,5 @@ img { max-width: 100%; display: block; }
   .about-media img { height: 280px; }
   .form-card { padding: 22px; }
   .logo-text { font-size: 1.15rem; }
+  .logo-img { height: 54px; }
 }
